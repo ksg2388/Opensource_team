@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from modul2 import *
 from fibonacci_number import *
+from union_intersection import *
 
 if __name__ == '__main__':
     while True:
@@ -8,10 +9,11 @@ if __name__ == '__main__':
         if (n == 1):
             num = input('input bin number:')
             binTohex(num)
+        elif (n == 2):
+            Arr()
         elif (n == 3):
             fibo = int(input('fibonacci number:'))
             fibonacci_number(fibo)
         elif (n == 4):
             print('exit the program...')
             break
-    
