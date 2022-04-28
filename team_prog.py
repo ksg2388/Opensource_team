@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from pkg
+import pkg
 
 if __name__ == '__main__':
     while True:
