@@ -1,19 +1,17 @@
 #!/usr/bin/python3
-from modul2 import *
-from fibonacci_number import *
-from union_intersection import *
+from pkg
 
 if __name__ == '__main__':
     while True:
         n = int(input('Select menu: 1)b2h 2)set 3)fibo 4)exit ? '))
         if (n == 1):
             num = input('input bin number:')
-            binTohex(num)
+            pkg.binTohex(num)
         elif (n == 2):
-            Arr()
+            pkg.Arr()
         elif (n == 3):
             fibo = int(input('fibonacci number:'))
-            fibonacci_number(fibo)
+            pkg.fibonacci_number(fibo)
         elif (n == 4):
             print('exit the program...')
             break
